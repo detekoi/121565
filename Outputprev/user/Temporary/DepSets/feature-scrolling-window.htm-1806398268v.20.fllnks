@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Windows with scrolled areas"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/A3_API/E_Eyes SDK/API Specification/eyes-ForceFullPageScreenshot.htm" />
+    <Link
+      Url="Content/A3_API/E_Eyes SDK/API Specification/eyes-setScrollToRegion.htm" />
+    <Link
+      Url="Content/A3_API/E_Eyes SDK/API Specification/eyes-setStitchMode.htm" />
+    <Link
+      Url="Content/A3_API/E_Eyes SDK/API Specification/eyesBase-setStitchOverlap.htm" />
+    <Link
+      Url="Content/A3_API/E_Eyes SDK/API Specification/eyes-checkFrame.htm" />
+    <Link
+      Url="Content/A3_API/E_Eyes SDK/API Specification/eyes-checkRegion.htm" />
+    <Link
+      Url="Content/A3_API/E_Eyes SDK/API Specification/eyes-checkRegionInFrame.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/A3_API/E_Eyes SDK/API Specification/eyes-ForceFullPageScreenshot.htm" />
+    <Link
+      Url="Content/A3_API/E_Eyes SDK/API Specification/eyes-setScrollToRegion.htm" />
+    <Link
+      Url="Content/A3_API/E_Eyes SDK/API Specification/eyes-setStitchMode.htm" />
+    <Link
+      Url="Content/A3_API/E_Eyes SDK/API Specification/eyesBase-setStitchOverlap.htm" />
+    <Link
+      Url="Content/A3_API/E_Eyes SDK/API Specification/eyes-checkFrame.htm" />
+    <Link
+      Url="Content/A3_API/E_Eyes SDK/API Specification/eyes-checkRegion.htm" />
+    <Link
+      Url="Content/A3_API/E_Eyes SDK/API Specification/eyes-checkRegionInFrame.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

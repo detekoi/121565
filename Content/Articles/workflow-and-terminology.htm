@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="3079" MadCap:lastWidth="865">
+    <head>
+    </head>
+    <body>
+        <h1>workflow-and-terminology</h1>
+        <p>In this tutorial we walk you through the process of testing using <MadCap:variable name="General.ProductName" /> and introduce the main concepts, terminology, features and capabilities of <MadCap:variable name="General.ProductName" /></p>
+        <h2>[1] Writing a Test</h2>
+        <p>In <MadCap:variable name="General.ProductName" />terminology a test refers to a series of images that are captured during a test run. Together these images have a name provided by the test programer. In the figure below you see a simplified program that shows the basic elements of a test. You can see that an Eyes object is created, a test instance is opened, six check points are sampled (the code that simulates the UI&#160;is removed for simplicity) and then the instance is closed and a results is returned.</p>
+        <p class="tbd">[TBD insert F0002 showing the test code</p>
+        <h2>[2] Running the Test for the first Time</h2>
+        <p>When you run the test, <MadCap:variable name="General.ProductName" /> examines the name of the test provided by the programer, and the details of the run time environment and defines the baseline ID. The baseline ID&#160;is composed of the name provided by the programmer (two strings that represent the application and test name) and strings that represent the OS, the browser (in the case of a Web app) and the viewport (window)&#160;size. Since the baseline ID&#160;is dependent on the run time environment, test that run on different platforms or in different window sizes will by default be processed independently. There are ways to configure <MadCap:variable name="General.ProductName" /> to handle tests in different environments as a group - these will be described elsewhere.</p>
+        <p class="tbd">[TBD insert F0002 showing the initial result of the first test</p>
+        <h2>[3] Examining the First Set of Results</h2>
+        <p> <MadCap:variable name="General.ProductName" /> will detect that this is the first run, and so the test is automatically classified as "new" and a new baseline is created. The return value in the "close" indicates that a new test run has been identified and a URL&#160;is provided where the test results tester can view the results if he wants to.</p>
+        <p class="tbd">[TBD insert F0002 showing the result of the first test</p>
+        <p>In the UI&#160;tool the tester will see a screen that looks something like this. Note the "New" status for the test, that all the images are marked as new (+).</p>
+        <p class="tbd">[TBD insert screen shot from UI]</p>
+        <h2>[4] Sometime later......</h2>
+        <p>In the natural course of events, software changes are made - that's why we need to keep testing them. Changing the software can result in changes in the set of checkpoints and in the results of the test. For example</p>
+        <ul>
+            <li>A check point may be added because of a new feature(e.g. check point 99)</li>
+            <li>A&#160;check point may be removed because a feature has been removed (e.g. check point 4)</li>
+            <li>The image at an existing break point may change due to new functionality, for example a new menu entry (check point 3)</li>
+            <li>
+                <p class="tbd">[TBD show F0002 2nd version of test program</p>
+            </li>
+        </ul>
+        <p>So the test is run again. <MadCap:variable name="General.ProductName" /> identifies that this test is associated with an existing baseline. So it covers the set of images generated from the check points (called the <i>actual images</i>) to the set of images in the baselines (called the <i>baseline images</i>). Note the number of images does not need to be the same. <MadCap:variable name="General.ProductName" /> allows you to add and remove check points in any way you like, as long as the order of check points does not change. So <MadCap:variable name="General.ProductName" /> reaches a conclusion shown below: \</p>
+        <p class="tbd">[TBD] show F0002 2nd version of test program +&#160;results</p>
+        <p>It has identified 7 <u>steps </u>, </p>
+        <ul>
+            <li>Step 1 - image 1 is identical to the corresponding baseline image</li>
+            <li>Step 2 - Actual image 2A&#160;is different from baseline image 2</li>
+            <li>Step 3 - Actual image 3A&#160;is different from baseline image 3</li>
+            <li>Step 4 - Baseline image 4 has no corresponding actual image</li>
+            <li>Step 5 - There is a new actual image 99 without a corresponding baseline image</li>
+            <li>Step 6 - Actual image 5A&#160;is different from baseline image 5</li>
+            <li>Step 7 - image 6 is identical to the corresponding baseline image</li>
+        </ul>
+        <h2>[5]Tester Confirmation of the Second Run</h2>
+        <p>And in some case (not in your organization of course)&#160;there are bugs and something in the window is not what it should be - it may have moved, it may have the wrong color or size. An element may have disappeared or an element may appear that should not be there.</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

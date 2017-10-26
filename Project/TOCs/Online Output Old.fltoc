@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/From_template/A_Getting Started/Getting Started.htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/From_template/A_Getting Started/Basic Steps.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]" />
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/From_template/B_Links and Lists/LinksAndLists.htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/From_template/B_Links and Lists/Links.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/From_template/B_Links and Lists/Lists.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/From_template/D_Images/Images.htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/From_template/D_Images/ThumbnailImage.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/From_template/D_Images/Positioned Images.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/From_template/D_Images/ImagePositionedLeft.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/From_template/D_Images/ImagePositionedRight.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/From_template/D_Images/ImageWithinList.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/From_template/C_Conditions Notes Tables/ConditionsNotesTables.htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/From_template/C_Conditions Notes Tables/Conditions.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/From_template/C_Conditions Notes Tables/NotesExamplesQuotations.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/From_template/C_Conditions Notes Tables/Tables.htm" />
+  </TocEntry>
+</CatapultToc>

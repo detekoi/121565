@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1162" MadCap:lastWidth="623">
+    <body>
+        <p>The first step to doing visual testing of an application using <MadCap:variable name="General.ProductName" /> is to write a test program that simulates user interaction with the application and calls <MadCap:variable name="General.ProductName" /> to capture images of the UI and to process them by comparing them with a set of baseline images.  </p>
+        <p>The basic elements of a test are as follows:</p>
+        <div class="NewRowClass2">
+            <div>
+                <ul>
+                    <li>A&#160;context is opened with <MadCap:variable name="General.ProductName" /> and some setup <MadCap:snippetText src="../../_quickInserts/tbdref.flsnp" /> is done.<MadCap:snippetText src="../../_quickInserts/tbdref.flsnp" /></li>
+                    <li>the context can encompass one or more <i>tests</i>. Each test should have a unique name. The test programmer specifies this name using 2 strings that typically represent the application name and the test name. Often a group of tests will share an application name, and each test will have a unique name. </li>
+                    <li>Each test consists of 1 or more <i>check points</i> that typically have the following form:</li>
+                </ul>
+                <div style="margin-left: 2em;">
+                    <ul>
+                        <li>send the application under test (AUT) events that bring the UI&#160;to a required state</li>
+                        <li>call <MadCap:variable name="General.ProductName" /> to capture and process an image of the application window at that point. </li>
+                    </ul>
+                </div>
+                <ul>
+                    <li>
+					Finally the test is closed and a result is returned. The result includes the status of the test (e.g. new test, passed or failed) and a link to the <MadCap:variable name="General.ProductName" /> site where you can see the images that were captured, the baseline images and the differences between them.  </li>
+                    <li>When multiple tests are run in the same context they are called a <i>batch</i> and they have a unique batch id. You can also specify a batch name. For more on batching see <MadCap:snippetText src="../../_quickInserts/tbdref.flsnp" /></li>
+                </ul>
+            </div>
+            <div>
+                <div class="sourcecode"> <pre xml:space="preserve">
+Eyes e = new Eyes();
+….setup…
+e.open(appName, "Test A",…)
+
+<i>Send events for check point A1</i>
+e.check();
+
+<i>Send events for check point A2</i>
+e.check();
+
+<i>Send events for check point A3</i>
+e.check();
+
+result = e.close()
+<i>store the result of test A	</i>								
+					
+e.open(appName, "Test B",…)
+
+<i>Send events for check point B1</i>
+e.check();
+
+<i>Send events for check point B2</i>
+e.check();
+
+result = e.close()
+<i>store the result of test B</i>				
+</pre> <![CDATA[ ]]></div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileClass="HomePage"
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/User/Dropbox/EKB_madcap_flare/Eyes Knowledge base/Eyes Knowledge base/Content/Resources/MasterPages/HomePage.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/HomePage.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/StylesForHomePage.css" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Project/Skins/HomeSearchBar.flskn" />
+    <Link
+      Url="https://applitools.com/resources/tutorial" />
+    <Link
+      Url="Content/Resources/Images/KeyFeatures.png" />
+    <Link
+      Url="Content/From_template/A_Getting Started/Basic Steps.htm" />
+    <Link
+      Url="Content/Resources/Images/BasicSteps.png" />
+    <Link
+      Url="Content/Resources/Images/WhatsNew.png" />
+    <Link
+      Url="Content/From_template/E_Footer Topics/FAQs.htm" />
+    <Link
+      Url="Content/Resources/Images/FAQs.png" />
+    <Link
+      Url="Content/From_template/A_Getting Started/Getting Started.htm" />
+    <Link
+      Url="http://docs.madcapsoftware.com/FlareTemplates/UserGuideAGreen.pdf" />
+    <Link
+      Url="Content/Resources/Images/PDF Cover.png" />
+    <Link
+      Url="Content/From_template/E_Footer Topics/PDF Downloads.htm" />
+    <Link
+      Url="https://youtu.be/WWcJoqGJ1E0" />
+    <Link
+      Url="https://youtu.be/ccWVDuoPD6c" />
+    <Link
+      Url="https://youtu.be/eYTmvrqLEmM" />
+    <Link
+      Url="https://youtu.be/r1-vsCKRoVQ" />
+    <Link
+      Url="https://youtu.be/MwtFC9XV9S8" />
+    <Link
+      Url="https://youtu.be/xwgNfLVZJto" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/HomePage.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/StylesForHomePage.css" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Project/Skins/HomeSearchBar.flskn" />
+    <Link
+      Url="https://applitools.com/resources/tutorial" />
+    <Link
+      Url="Content/Resources/Images/KeyFeatures.png" />
+    <Link
+      Url="Content/From_template/A_Getting Started/Basic Steps.htm" />
+    <Link
+      Url="Content/Resources/Images/BasicSteps.png" />
+    <Link
+      Url="Content/Resources/Images/WhatsNew.png" />
+    <Link
+      Url="Content/From_template/E_Footer Topics/FAQs.htm" />
+    <Link
+      Url="Content/Resources/Images/FAQs.png" />
+    <Link
+      Url="Content/From_template/A_Getting Started/Getting Started.htm" />
+    <Link
+      Url="http://docs.madcapsoftware.com/FlareTemplates/UserGuideAGreen.pdf" />
+    <Link
+      Url="Content/Resources/Images/PDF Cover.png" />
+    <Link
+      Url="Content/From_template/E_Footer Topics/PDF Downloads.htm" />
+    <Link
+      Url="https://youtu.be/WWcJoqGJ1E0" />
+    <Link
+      Url="https://youtu.be/ccWVDuoPD6c" />
+    <Link
+      Url="https://youtu.be/eYTmvrqLEmM" />
+    <Link
+      Url="https://youtu.be/r1-vsCKRoVQ" />
+    <Link
+      Url="https://youtu.be/MwtFC9XV9S8" />
+    <Link
+      Url="https://youtu.be/xwgNfLVZJto" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/StylesForHomePage.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

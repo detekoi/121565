@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="True"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="True"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="False"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="False"
+  UseMinCharLimit="True"
+  MaxCharLimit="10000"
+  MinCharLimit="10"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  LastCollectTime="2017-09-19T10:46:17.3720669+03:00"
+  UseHeaderRows="true"
+  LastImport="2017-09-19T10:46:38.6680215+03:00">
+  <Files>
+    <Url
+      Source="../../../../../EKB_sources/EKB_TOC.docx"
+      AbsoluteSource="file:///C:/Users/User/Dropbox/EKB_sources/EKB_TOC.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/concepts-tree/Basic Test Scenario.htm"
+      TimeStamp="19-Sep-17 10:46:18 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Start and Teardown.htm"
+      TimeStamp="19-Sep-17 10:46:18 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Ways to Initiate Matches.htm"
+      TimeStamp="19-Sep-17 10:46:18 AM" />
+    <Url
+      Source="../../Content/concepts-tree/obtaining match results.htm"
+      TimeStamp="19-Sep-17 10:46:18 AM" />
+    <Url
+      Source="../../Content/concepts-tree/viewing match results.htm"
+      TimeStamp="19-Sep-17 10:46:18 AM" />
+    <Url
+      Source="../../Content/concepts-tree/basic test configuration.htm"
+      TimeStamp="19-Sep-17 10:46:18 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Obtaining Best Results.htm"
+      TimeStamp="19-Sep-17 10:46:18 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Why is Matching Hard.htm"
+      TimeStamp="19-Sep-17 10:46:18 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Match Levels.htm"
+      TimeStamp="19-Sep-17 10:46:18 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Matching Units Types.htm"
+      TimeStamp="19-Sep-17 10:46:18 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Match Filtering.htm"
+      TimeStamp="19-Sep-17 10:46:18 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Managing tests and Results.htm"
+      TimeStamp="19-Sep-17 10:46:18 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Version Control.htm"
+      TimeStamp="19-Sep-17 10:46:18 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Baselines.htm"
+      TimeStamp="19-Sep-17 10:46:18 AM" />
+    <Url
+      Source="../../Content/concepts-tree/User Defined Properties.htm"
+      TimeStamp="19-Sep-17 10:46:18 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Batches.htm"
+      TimeStamp="19-Sep-17 10:46:18 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Controlling the test sequence.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Platform Configuration.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Screenshot Configuration.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Timing and Performance Considerations.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Client Debug Environment.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Server Access Configuration.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Internal debug.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Storing images results locally.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Eyes SDK.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Available Platforms.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/API Specifications.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Eyes WebApp.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Test Manager.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Test List.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Batch Steps View.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Batch steps by test.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Batch Summary View.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Step Viewer.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Test Editor.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Test run history view.htm"
+      TimeStamp="19-Sep-17 10:46:19 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Apps and test panel.htm"
+      TimeStamp="19-Sep-17 10:46:20 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Apps and Test Panel_1.htm"
+      TimeStamp="19-Sep-17 10:46:20 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Admin Panel.htm"
+      TimeStamp="19-Sep-17 10:46:20 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Admin View.htm"
+      TimeStamp="19-Sep-17 10:46:20 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Usage Report.htm"
+      TimeStamp="19-Sep-17 10:46:20 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Server.htm"
+      TimeStamp="19-Sep-17 10:46:20 AM" />
+    <Url
+      Source="../../Content/concepts-tree/The Eyes Server API.htm"
+      TimeStamp="19-Sep-17 10:46:20 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Integration with CI CD systems.htm"
+      TimeStamp="19-Sep-17 10:46:20 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Jenkins.htm"
+      TimeStamp="19-Sep-17 10:46:20 AM" />
+    <Url
+      Source="../../Content/concepts-tree/Team City.htm"
+      TimeStamp="19-Sep-17 10:46:20 AM" />
+    <Url
+      Source="../TOCs/concepts-tree.fltoc"
+      TimeStamp="19-Sep-17 10:46:18 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/concepts-tree.css"
+      TimeStamp="19-Sep-17 10:46:18 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading1"
+      To="h1.(MS Word Style)" />
+    <Map
+      From="Heading2"
+      To="h2.(MS Word Style)" />
+    <Map
+      From="Heading3"
+      To="h3.(MS Word Style)" />
+    <Map
+      From="Heading4"
+      To="h4.(MS Word Style)" />
+    <Map
+      From="Heading5"
+      To="h5.(MS Word Style)" />
+    <Map
+      From="Heading6"
+      To="h6.(MS Word Style)" />
+    <Map
+      From="Heading 1"
+      To="h1.(MS Word Style)" />
+    <Map
+      From="Heading 2"
+      To="h2.(MS Word Style)" />
+    <Map
+      From="Heading 3"
+      To="h3.(MS Word Style)" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles />
+</MsWordImport>

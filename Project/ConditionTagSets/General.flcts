@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Comment=""
+    Name="Online"
+    BackgroundColor="#90ee90" />
+  <ConditionTag
+    Comment=""
+    Name="PDF"
+    BackgroundColor="#c7c2c2" />
+  <ConditionTag
+    BackgroundColor="#efff00"
+    Name="ToDo"
+    Comment="For placeholders - not printed anywhere" />
+  <ConditionTag
+    BackgroundColor="#ffbc00"
+    Name="Internal"
+    Comment="For things that are only for internal use"
+    OriginalName="Internal" />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="Not for Output"
+    Comment="" />
+</CatapultConditionTagSet>

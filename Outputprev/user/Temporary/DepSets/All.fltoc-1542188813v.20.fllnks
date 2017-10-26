@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="false"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/A2_Concepts/A_basic Test Scenario/Start and Teardown.htm" />
+    <Link
+      Url="Content/A2_Concepts/A_basic Test Scenario/Ways to Initiate Matches.htm" />
+    <Link
+      Url="Content/A2_Concepts/A_basic Test Scenario/obtaining match results.htm" />
+    <Link
+      Url="Content/A2_Concepts/A_basic Test Scenario/viewing match results.htm" />
+    <Link
+      Url="Content/A2_Concepts/A_basic Test Scenario/basic test configuration.htm" />
+    <Link
+      Url="Content/A2_Concepts/C_obtaining best results/A_Why is Matching Hard.htm" />
+    <Link
+      Url="Content/A2_Concepts/C_obtaining best results/B_Match Levels.htm" />
+    <Link
+      Url="Content/A2_Concepts/C_obtaining best results/C_Matching Units Types.htm" />
+    <Link
+      Url="Content/A2_Concepts/C_obtaining best results/D_Match Filtering.htm" />
+    <Link
+      Url="Content/A2_Concepts/D_Managing tests and Results/B2_Version Control.htm" />
+    <Link
+      Url="Content/A2_Concepts/D_Managing tests and Results/B1_Baselines.htm" />
+    <Link
+      Url="Content/A2_Concepts/D_Managing tests and Results/C_User Defined Properties.htm" />
+    <Link
+      Url="Content/A2_Concepts/D_Managing tests and Results/A_Batches.htm" />
+    <Link
+      Url="Content/A2_Concepts/D_Managing tests and Results/Controlling the test sequence.htm" />
+    <Link
+      Url="Content/A2_Concepts/H_Platform Consideration/Screenshot Configuration.htm" />
+    <Link
+      Url="Content/A2_Concepts/H_Platform Consideration/Timing and Performance Considerations.htm" />
+    <Link
+      Url="Content/A2_Concepts/H_Platform Consideration/Client Debug Environment.htm" />
+    <Link
+      Url="Content/A2_Concepts/H_Platform Consideration/Server Access Configuration.htm" />
+    <Link
+      Url="Content/A2_Concepts/Trouble Shooting/Internal debug.htm" />
+    <Link
+      Url="Content/A2_Concepts/E_Eyes SDK/Available Platforms.htm" />
+    <Link
+      Url="Content/A2_Concepts/F_Eyes WebApp/Test Manager/test List/Test List.htm" />
+    <Link
+      Url="Content/A2_Concepts/F_Eyes WebApp/Test Manager/Batch Steps View/Batch Steps View.htm" />
+    <Link
+      Url="Content/A2_Concepts/F_Eyes WebApp/Test Manager/Batch steps by test/Batch steps by test.htm" />
+    <Link
+      Url="Content/A2_Concepts/F_Eyes WebApp/Test Manager/Batch Summary View/Batch Summary View.htm" />
+    <Link
+      Url="Content/A2_Concepts/G_Integration with CI CD systems/Step Viewer.htm" />
+    <Link
+      Url="Content/A2_Concepts/F_Eyes WebApp/Test Manager/Test Editor/Test Editor.htm" />
+    <Link
+      Url="Content/A2_Concepts/F_Eyes WebApp/Test Manager/Test Run History View/Test run history view.htm" />
+    <Link
+      Url="Content/A2_Concepts/F_Eyes WebApp/Admin Panel/Admin View.htm" />
+    <Link
+      Url="Content/A2_Concepts/F_Eyes WebApp/Admin Panel/Usage Report.htm" />
+    <Link
+      Url="Content/A2_Concepts/Server.htm" />
+    <Link
+      Url="Content/The Eyes Server API.htm" />
+    <Link
+      Url="Content/A2_Concepts/G_Integration with CI CD systems/Integration with CI CD systems.htm" />
+    <Link
+      Url="Content/A2_Concepts/G_Integration with CI CD systems/Jenkins.htm" />
+    <Link
+      Url="Content/concepts-tree/Team City.htm" />
+  </Links>
+  <LongLinks />
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="487" MadCap:lastWidth="623">
+    <head>
+    </head>
+    <body>
+        <p>The  <b>Viewport</b> represents the pixel dimensions on the screen of the region whose image is being captured and matched. For example, on a browser, this is the visible area of the webpage within the browser window, and it doesn't include the browser buttons and tool bars. On other platforms such as mobile or desktop applications the viewport could include all of the content on the screen or all of the operating system window. </p>
+        <p>Apart from storing the viewport size as part of the baseline information, <MadCap:variable name="General.ProductName" />, also sets the viewport size to the correct dimension before running the test (on platforms where this is supported e.g. web browsers)</p>
+        <p>Some things to note about Viewports:</p>
+        <ol>
+            <li>Selecting an appropriate viewport size is very important, here are some things to consider:				<ul><li>When testing an application with a responsive interface, the test should be run multiple times, each time with a different viewport size to represent the different target mobile device screen dimensions.</li><li> The viewport should always be smaller than the screen resolution of the smallest screen it will be tested on. In the case of a web application that runs on a browser, the viewport size should be small enough that when the browser's buttons and tool bars and the window frame are added the entire browser window will fit on the screen.</li></ul></li>
+            <li>The content of the page being displayed is not always visible in the viewport. There page may be scrollable, or it may contain scrollable elements. The <MadCap:variable name="General.ProductClientAPI" /> provides various ways of handling these situations.</li>
+        </ol>
+    </body>
+</html>

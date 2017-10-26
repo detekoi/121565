@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="318" MadCap:lastWidth="662">
+    <head>
+    </head>
+    <body>
+        <p>Multiple tests may be grouped together logically for the purpose of result processing and management using a feature called batching. </p>
+        <p>Tests can be batched in various ways:</p>
+        <ul>
+            <li>When two or more tests are executed together and share an eyes instance, they are batched together automatically.</li>
+            <li>A&#160;programer can explicitly batch tests together even if they have separate eyes instances using the <MadCap:variable name="General.ProductClientAPI" /> (for example if tests are run in separate concurrent threads) . </li>
+            <li>A&#160;programmer can explicitly batch tests together even if they run at separate times or on different platforms using  the <MadCap:variable name="General.ProductClientAPI" /></li>
+        </ul>
+        <p>In the <MadCap:variable name="General.ProductUI" /> there is batch pane that consists of a list of all the batches from sorted from the latest to the oldest. You can search for a specific batch in various ways. Clicking on an entry in the list will display information about the batch and will allow you to view and manage all of the tests associated with that batch. </p>
+    </body>
+</html>

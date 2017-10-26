@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UrlList>
+    <Url Source="Resources/Images/Assets/Icons/MainIcons/FAQs-black.png" />
+    <Url Source="Resources/Images/Assets/Icons/MainIcons/Notes-black.png" />
+    <Url Source="Resources/Images/Assets/Icons/MainIcons/Tips-black.png" />
+    <Url Source="Resources/Images/Assets/Icons/MainIcons/Solutions-black.png" />
+    <Url Source="Resources/Images/Assets/Icons/MainIcons/VideosImages-black.png" />
+    <Url Source="Resources/Images/Assets/Icons/MainIcons/Hello-black.png" />
+    <Url Source="Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-black.png" />
+    <Url Source="Resources/Images/Assets/Icons/MainIcons/PDFs-black.png" />
+    <Url Source="Resources/Images/Assets/Icons/MainIcons/SharedFiles-black.png" />
+    <Url Source="Resources/Images/Assets/Icons/MainIcons/Services-black.png" />
+    <Url Source="Resources/Images/Assets/Icons/MainIcons/Clients-black.png" />
+    <Url Source="Resources/Images/Punisher-256.png" />
+</UrlList>

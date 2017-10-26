@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="448" MadCap:lastWidth="636">
+    <head>
+    </head>
+    <body>
+        <p>Every test has an associated <MadCap:glossaryTerm glossTerm="EyesTerms.Term4">baseline</MadCap:glossaryTerm>. The baseline defines the sequence of images that the actual window screen shots are compared to. The first time a test is run the baseline is created and the images captured are stored on the server. On subsequent test runs the sequence of newly captured actual images are compared to the sequence of baseline images, and the differences detected as described in <MadCap:snippetText src="../_quickInserts/tbdref.flsnp" />.</p>
+        <p>The baseline has a unique name and identifier. The name is composed of a number of parts, some are provided by the test programer and others are defined by default by <MadCap:variable name="General.ProductName" />.</p>
+        <p> The test programer provides:</p>
+        <ul>
+            <li>The <b>Application Name</b> :&#160;A string that may be  common to a number of test, but must be unique for each group of tests.</li>
+            <li>The <b>Test Name</b> :&#160; A&#160;string that must be unique for each test e.g. "Login Page"</li>
+            <li>The<b>Viewport</b> :&#160;the size of the window in which the application should run e.g. 800x599 . See <a href="definition-page-viewport.htm">here</a> for more details.</li>
+        </ul>
+        <p> <MadCap:variable name="General.ProductName" /> automatically associates with the baseline the following information:. </p>
+        <ul>
+            <li>The <b>platform operating system</b> e.g. Windows 10, Mac OS X 10.11, Android 5.1</li>
+            <li class="tbd">The <b>Application Platform</b><span class="tbd"> e.g. IE, Firefox, Chrome</span></li>
+        </ul>
+        <p>So if you run your test on different platforms to test portability, or with different window sizes in order to test responsiveness, then each test run will have it's own baseline.</p>
+    </body>
+</html>

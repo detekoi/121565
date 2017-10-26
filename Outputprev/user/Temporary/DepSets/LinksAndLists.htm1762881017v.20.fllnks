@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/Snippets/MiniTOC.flsnp" />
+    <Link
+      Url="Content/From_template/B_Links and Lists/Links.htm" />
+    <Link
+      Url="Content/From_template/B_Links and Lists/Lists.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/Snippets/MiniTOC.flsnp" />
+    <Link
+      Url="Content/From_template/B_Links and Lists/Links.htm" />
+    <Link
+      Url="Content/From_template/B_Links and Lists/Lists.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Links"
+      Conditions=""
+      LocalConditions=""
+      Position="6" />
+    <IndexCacheEntry
+      Term="Lists"
+      Conditions=""
+      LocalConditions=""
+      Position="6" />
+  </Keywords>
+  <Concepts>
+    <ConceptCacheEntry
+      Term="LinksLists"
+      Conditions=""
+      LocalConditions=""
+      Position="5" />
+  </Concepts>
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="General.PDF" />
+    <Condition
+      Tag="General.Online" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

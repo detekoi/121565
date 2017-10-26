@@ -1,0 +1,229 @@
+﻿/*<meta />*/
+
+/*===========================================================================================================================================================
+
+Hello! If this is your first time looking at a stylesheet within the text editor view, what you are reading right now is a "comment". Comments are added throughout this stylesheet with the purpose of making the source code easier to understand, comments will not be interpreted during the compile process. Since comments are not interpreted during the compile process, feel free to add or remove any comments.
+
+If you have any questions regarding how to work with this stylesheet or template project, please contact MadCap Technical Support. 
+https://www.madcapsoftware.com/support/contact-options.aspx
+
+===========================================================================================================================================================*/
+
+/*==Home Page General Styles==*/
+
+body /*Background gradient properties applied to Body*/
+{
+	font-family: Arial;
+	line-height: 1.5em;
+	background: #ad00ad; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(left top, #ad00ad, #f59405); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #ad00ad, #f59405); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #ad00ad, #f59405); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #ad00ad, #f59405); /* Standard syntax */
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1
+{
+	font-size: 2.75em;
+}
+
+h2
+{
+	font-size: 1.6785em;
+	color: #fff;
+}
+
+p
+{
+	color: #5a5a5a;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+
+.center
+{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+	text-align: center;
+}
+
+.off-canvas-content .main-section > .outer-row
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+/*==Responsive Header Styles==*/
+
+#contentBody > .responsive-header
+{
+	background-color: transparent;
+}
+
+div.search-container
+{
+	margin: 0 auto;
+}
+
+/*==Home Tiles section==*/
+  
+div.home-tiles	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+div.home-tiles::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-tiles > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #fff;
+	border: 1px solid #d3d3d3;
+	padding: 30px 10px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	height: 300px;
+	overflow: hidden;
+}
+
+div.home-tiles > div:hover
+{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	transform: scale(1.05); 
+}
+
+div.home-tiles > div:nth-child(1)
+{
+	width: 16.667%;
+	margin-left: 24%;
+}
+
+div.home-tiles > div:nth-child(2)
+{
+	width: 16.667%;
+	margin-left: 1%;
+}
+
+div.home-tiles > div:nth-child(3)
+{
+	width: 16.667%;
+	margin-left: 1%;
+}
+/*=Elements for text contained within each home-tile=*/
+
+p.tile-title
+{
+	text-align: center;
+	color: #7E8890;
+	font-family: Arial;
+	font-size: 1.4em;
+}
+
+p.tile-subtitle
+{
+	text-align: center;
+	font-size: 0.9em;
+	color: #7E8890;
+}
+
+p.tile-content
+{
+	color: #7E8890;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+div.home-tiles a /*Complex Selector: Links within the home tiles will have the following properties*/
+{
+	text-decoration: none;
+	color: #000;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+div.home-tiles a:hover /*Complex Selector: When hovering over links within the home tiles the following properties will apply.*/
+{
+	color: #f59405;
+}
+
+/*===========================================================================================================================================================
+Styles after this point are styles that are for specific mediums. If any additional styles are added to this template they will be listed after mediums.
+[@media tablet] declares styles that will apply when the screen is in tablet view
+[@media mobile] declares styles that will apply when the screen is in mobile view
+===========================================================================================================================================================*/
+
+@media tablet
+{
+	
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 32%;
+		margin-left: 1%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 32%;
+		margin-left: 1%;
+	}
+
+	div.home-tiles > div:nth-child(3)
+	{
+		width: 32%;
+		margin-left: 1%;
+	}
+}
+
+@media mobile
+{
+	
+	p.tile-title
+	{
+		font-size: 1.2em;
+	}
+
+	div.home-tiles > div
+	{
+		margin-top: 2%;
+	}
+
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	div.home-tiles > div:nth-child(3)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+}

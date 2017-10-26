@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="false"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/From_template/A_Getting Started/Getting Started.htm" />
+    <Link
+      Url="Content/From_template/A_Getting Started/Basic Steps.htm" />
+    <Link
+      Url="Content/From_template/B_Links and Lists/LinksAndLists.htm" />
+    <Link
+      Url="Content/From_template/B_Links and Lists/Links.htm" />
+    <Link
+      Url="Content/From_template/B_Links and Lists/Lists.htm" />
+    <Link
+      Url="Content/From_template/D_Images/Images.htm" />
+    <Link
+      Url="Content/From_template/D_Images/ThumbnailImage.htm" />
+    <Link
+      Url="Content/From_template/D_Images/Positioned Images.htm" />
+    <Link
+      Url="Content/From_template/D_Images/ImagePositionedLeft.htm" />
+    <Link
+      Url="Content/From_template/D_Images/ImagePositionedRight.htm" />
+    <Link
+      Url="Content/From_template/D_Images/ImageWithinList.htm" />
+    <Link
+      Url="Content/From_template/C_Conditions Notes Tables/ConditionsNotesTables.htm" />
+    <Link
+      Url="Content/From_template/C_Conditions Notes Tables/Conditions.htm" />
+    <Link
+      Url="Content/From_template/C_Conditions Notes Tables/NotesExamplesQuotations.htm" />
+    <Link
+      Url="Content/From_template/C_Conditions Notes Tables/Tables.htm" />
+  </Links>
+  <LongLinks />
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

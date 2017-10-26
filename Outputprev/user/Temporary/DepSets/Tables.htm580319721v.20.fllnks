@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/PrintGuides.flcts" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/Snippets/MiniTOC.flsnp" />
+    <Link
+      Url="Content/Resources/TableStyles/Simple.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Standard.css" />
+    <Link
+      Url="Content/Resources/Images/RedX.png" />
+    <Link
+      Url="Content/Resources/Images/GreenCheck.png" />
+    <Link
+      Url="Content/Resources/TableStyles/PatternedRows.css" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/PrintGuides.flcts" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/Snippets/MiniTOC.flsnp" />
+    <Link
+      Url="Content/Resources/TableStyles/Simple.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Standard.css" />
+    <Link
+      Url="Content/Resources/Images/RedX.png" />
+    <Link
+      Url="Content/Resources/Images/GreenCheck.png" />
+    <Link
+      Url="Content/Resources/TableStyles/PatternedRows.css" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Tables"
+      Conditions=""
+      LocalConditions=""
+      Position="5" />
+    <IndexCacheEntry
+      Term="Tables:patterned rows"
+      Conditions=""
+      LocalConditions=""
+      Position="218" />
+  </Keywords>
+  <Concepts>
+    <ConceptCacheEntry
+      Term="ConditionsBlockElementsTables"
+      Conditions=""
+      LocalConditions=""
+      Position="4" />
+  </Concepts>
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="PrintGuides.UserGuideA" />
+    <Condition
+      Tag="General.Online" />
+    <Condition
+      Tag="PrintGuides.UserGuideB" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="8120" MadCap:lastWidth="762">
+    <head>
+    </head>
+    <body>
+        <h2>Introduction</h2>
+        <p>This section introduces the <MadCap:variable name="General.ProductName" /> notion of a "<i>test</i>" that is a unit of comparison that consists of multiple "<i>steps</i>".</p>
+        <p>A test suite will typically test the application at a multiple checkpoints. Each <MadCap:glossaryTerm glossTerm="EyesTerms.Term2">checkpoint</MadCap:glossaryTerm> represents a state of the system UI. The test program triggers a series of events to bring the system into each required state. It then calls the <MadCap:variable name="General.ProductClientAPI" /> to capture a screen image and sends it to the <MadCap:variable name="Definitions.Eyes Server" /> for match processing. (On some platforms the test program captures the image and passes it to the <MadCap:variable name="General.ProductClientAPI" />). The <MadCap:variable name="Definitions.Eyes Server" /> then compares the captured <i>actual image</i> to a corresponding baseline <i>expected image</i> and detects any mismatches. </p>
+        <p>In order to do automatic visual testing of multiple checkpoints, there is a need for:</p>
+        <ul>
+            <li>A baseline image for every checkpoint</li>
+            <li>A way to associate an image taken at a given checkpoint to it's corresponding baseline image</li>
+        </ul>
+        <p>There are many possibilities as to how checkpoints can be mapped to baseline images. Before explaining the method used by <MadCap:variable name="General.ProductName" /> let's look at a simple alternative so as to understand better the mechanism used by <MadCap:variable name="General.ProductName" />.</p>
+        <p> One way to implement baseline images is to assign a unique identifier (ID)&#160;to every checkpoint. When a test is executed and there is no baseline image for that checkpoint ID, then that image is stored and marked as the  baseline image for that checkpoint. If a baseline exists that corresponds to the checkpoint ID&#160;then the captured image is compared to that baseline image. </p>
+        <p>This approach is simple, however in an advanced testing environment it can be difficult to manage. The problem is that as software changes the set of checkpoints also changes:</p>
+        <ul>
+            <li>New checkpoints may be added, to correspond to new functionality</li>
+            <li>Existing checkpoints may become obsolete and need to be removed. </li>
+            <li>The screen content at an existing checkpoint may change, for example, because of a new field in a form or a new menu entry. In this case a mismatch will be detected - but it is not due to a bug, but rather the checkpoint baseline image needs to be updated. </li>
+        </ul>
+        <p>With the simplistic approach outlined above the test programer would need to:</p>
+        <ul>
+            <li>Ensure that every checkpoint has a unique ID</li>
+            <li>Manage the creation of new baseline images for new checkpoints</li>
+            <li>Manage removal of baseline images that are no longer related to an existing checkpoint</li>
+        </ul>
+        <p>Instead of this mechanism, <MadCap:variable name="General.ProductName" /> provides the notion of a testing unit (called simply "a <i>test</i>") that consists of a set of multiple <i>expected images</i> that are associated together, under a single baseline name, each such image corresponds to a "step" in the test.</p>
+        <h2> "Test" and Steps</h2>
+        <p>When a test is run, <MadCap:variable name="General.ProductName" /> stores the list of the <i>actual images</i> captured during the run, in the order that they are captured. It compares this list to the list of <i>expected images</i> stored as part of the test baseline information. In an actual run, the numbered of captured images may be more or less than the number of expected images. But if the order of images that <i>are</i> in both list is assumed to be the same, then <MadCap:variable name="General.ProductName" /> can detect the following cases:</p>
+        <ul>
+            <li>A)&#160;The expected and actual image of a step match.</li>
+            <li>B)&#160;The expected and actual image of a step differ</li>
+            <li>C)&#160;There is an expected image with no corresponding actual image </li>
+            <li>D)&#160;There is an actual image with no corresponding expected image </li>
+        </ul>
+        <p>By default <MadCap:variable name="General.ProductName" /> only notifies what is has found - one of the four state above. It makes no decision as to the cause of the mismatch. The mismatch may signal a bug in the application or a bug in the test, or it may be due to a real change in the application or test.The tester can now use the <MadCap:variable name="General.ProductUI" />   to view the actual and expected images for each step, and decide if the mismatch is due to a bug or a change. As a result of this the tester can report the bugs, and by implication can indicate what should be done regarding the baseline images for each step of the test: </p>
+        <ul>
+            <li>the baseline image should remain (case A and B&#160;where the mismatch is due to a bug in the test or the application)</li>
+            <li>the baseline image should be deleted (case C is expected and not due to a bug)</li>
+            <li>the baseline image should  be replaced by the image captured in the test run (case B&#160;where the mismatch was because of a change in the application)</li>
+            <li>the newly captured image should be stored as the new baseline image  (case D where a new step was introduced in the test)</li>
+        </ul>
+        <h2>Example</h2>
+        <p>The following section is a detailed example that illustrates the logic described above.</p>
+        <p>The test uses as an example a simple use case where the user presses a "contact" button and is presented with a form in which he should fill out his name and e-mail.</p>
+        <p>For simplicity the figures shown the information available in the output and not the actual screen shot output.</p>
+        <h3>Test Version 1, first run.</h3>
+        <p>In the first version of the test, illustrated in the figure below, the user presses a "contact button", enters his name but not an e-mail address and then the application displays a "thank you" Popup.<MadCap:variable name="General.ProductName" /> is called three times, after the contact form has been shown, after the user has pressed OK, before the form is closed, and after the "thank you" popup has been displayed.<MadCap:variable name="General.ProductName" />. The figure shows that <MadCap:variable name="General.ProductName" /> has three actual images, no baseline images and has therefor concluded that this are three new steps. </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>
+                    <p> See figure </p>
+                </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <img src="../Resources/Figures/F0002a.png" />)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>The following figure shows the state of the baseline after the user has confirmed that these images are the correct result.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>
+                    <p>See figure</p>
+                </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p> <img src="../Resources/Figures/F0002b.png" /> </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>The product owner decides to makes some changes</p>
+        <ol>
+            <li>The application should check if the user has entered an e-mail - and if not then warn him and request that he add an email. </li>
+            <li>A&#160;cancel button should be added to the form</li>
+            <li>There is no need for the "thank you popup"</li>
+        </ol>
+        <p>The following figure shows the new test program and the state of the actual and expected images immediately after the test run before the tester has confirmed the results (we've put the code lines removed in comment in case the product owner changes his mind :-) ), .</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>
+                    <p>See figure</p>
+                </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <img src="../Resources/Figures/F0002c.png" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>Notice that <MadCap:variable name="General.ProductName" /> has detected that</p>
+        <ul>
+            <li>two changes in the empty form (cancel has been added and OK&#160;has moved to the right)</li>
+            <li>three changes in the filled out form (as above and in addition  the name was changed from John Doe to John Buck</li>
+            <li>a new "email missing" dialog</li>
+            <li>a&#160;new filled out form with the e-mail</li>
+            <li>a missing thank you dialog</li>
+            <li>a new home page dialog after the form has been closed</li>
+        </ul>
+        <p>The test manager accepts all the changes accept that she wants the email name to be John Doe, so she rejects that change and so after the next run the state of the system is as follows:</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>
+                    <p>See figure</p>
+                </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <img src="../Resources/Figures/F0002d.png" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>and after the tester accepts the form with the e-maill the baseline looks like</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>
+                    <p>See figure</p>
+                </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <img src="../Resources/Figures/F0002e.png" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2>Using Test Sequences </h2>
+        <p><MadCap:variable name="General.ProductName" /> associates a baseline with every test sequence instead of every checkpoint. The baseline has a unique ID. The ID&#160;is composed of  application and test name provided by the programer as well as other attributes that make the test unique such as the viewport size, the operating system and the application platform. See  for full details.</p>
+        <p>If the test programmer prefers to have a unique ID&#160;for every checkpoint then this is achieved by assigning a test sequence with a single image for every check point</p>
+        <h2>Test Sequence Example Pattern</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>The following outlines how a code sequence is coded in Java other languages are similar:</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>A test context is created and setup (not shown)</li><pre class="code-block">eyes = new Eyes();</pre>
+                    <li>The  test sequence is created</li><pre xml:space="preserve">eyes.open(applicationName, testName, ViewportSize);</pre>
+                    <li>a series of call are made that setup the state for the checkpoint (e.g. by calling Selenium) and then calling a "check" method to initiate the capture of the image</li>
+                </ol><pre xml:space="preserve">
+   <i>set up first checkpoint..</i>
+   eyes.checkWindow(); // no tag given
+   <i>set up second checkpoint..</i>
+   eyes.checkWindow("optional Tag");</pre>
+                <ul>
+                    <li>At the end of the run the test calls</li><pre xml:space="preserve">result = eyes.close();</pre>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2>Notes</h2>
+        <ol>
+            <li>Multiple test sequences may be grouped together for the purpose of viewing results. See .</li>
+            <li>In a production environment, the software that is related to a test sequence undergoes changes and multiple versions of the software may exists at the same time. <MadCap:variable name="General.ProductName" /> Provides a way to manage multiple versions of a test sequence that parallel the multiple versions of the software that the test sequence is capturing.</li>
+            <li>&#160;</li>
+        </ol>
+        <h2>See Also</h2>
+        <p class="internal">open,close,check,test commands</p>
+        <p class="internal">Types of check points</p>
+        <p class="internal">Baselines</p>
+        <p class="internal">Branches</p>
+        <p class="internal">&#160;</p>
+    </body>
+</html>

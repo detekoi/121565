@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="295" MadCap:lastWidth="688">
+    <head>
+    </head>
+    <body>
+        <p>While the tester is reviewing and resolving the tests, <MadCap:variable name="General.ProductName" /> persists his resolution decisions and annotations. But even if the tester has accepted a new image for the baseline, it will not yet be used in subsequent test runs until the tester explicitly saves the Baseline. This state is indicated in the tool with an "*"&#160;near the step and test name <span class="tbd">(TBD&#160;Image)</span>. </p>
+        <p>When the tester presses the save <span class="tbd">(TBD&#160;Image)</span> button all the changes in the test and its steps are made a permanent part of the baseline and will be used in subsequent runs of the test.</p>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2290" MadCap:lastWidth="1544" MadCap:conditionTagExpression="include[General.Online] ">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>method eyes::open()</h1>
+        <p>This method is called once, at the start of an <MadCap:variable name="General.ProductName" /> session. </p>
+        <h1>Applicability</h1>
+        <p>Languages :&#160;Java, also available in </p>
+        <p>Platform : Selenium, also available on  </p>
+        <h2>Syntax</h2><code>WebDriver open(</code><code>WebDriver driver, </code><code>String appName, </code><code>String testName,</code><code>RectangleSize viewportSize)</code>
+        <p><code>WebDriver open(</code><code>WebDriver driver, </code><code>String appName, </code><code>String testName</code><code>)</code>
+        </p>
+        <h2>Description</h2>
+        <p>This method is called once, at the start of the test and before any calls to <code>check*.</code> or <code>test* </code>The appName and testName parameters are two of the multiple factors that govern the baseline for these tests. These strings appear in the various <MadCap:variable name="General.ProductUI" /> screens. </p>
+        <div class="internal">TBD(ref to where you can see them in the UI)</div>
+        <h2>Parameters</h2>
+        <table style="width: 100%;">
+            <col style="width: 304px;" />
+            <col style="width: 284px;" />
+            <col />
+            <tbody>
+                <tr>
+                    <td>Type</td>
+                    <td>Name</td>
+                    <td>Description</td>
+                </tr>
+                <tr>
+                    <td>WebDriver </td>
+                    <td>driver</td>
+                    <td>Selenium class returned when a selenium driver is created e.g. using new ChromeDriver() or new FirefoxDriver()</td>
+                </tr>
+                <tr>
+                    <td>String </td>
+                    <td>appName</td>
+                    <td>A&#160;unique string that identifies the application. This is one of the elements that define the baseline.</td>
+                </tr>
+                <tr>
+                    <td>String </td>
+                    <td>testName</td>
+                    <td>A&#160;unique string that identifies the test. This is one of the elements that define the baseline.</td>
+                </tr>
+                <tr>
+                    <td>RectangleSize </td>
+                    <td>viewportSize</td>
+                    <td>The size of the viewport</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Return Value</h2>
+        <p><code>WebDriver</code> TBD when and how this is used</p>
+        <h2>Exceptions</h2>
+        <p>tbd </p>
+        <h2>Notes</h2>
+        <p>A version of this API&#160;exists that does not take a viewportSize parameter. In this case the default is the viewport size is taken as the viewport size of the window in which the code is executing. The viewport size may be set at a later point using the API&#160;<code>setViewportSize(RectangleSize size)</code></p>
+        <h2>Examples</h2>
+        <p>tbd</p>
+        <h2>See Also</h2>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <div class="internal">Purpose</div>
+        <div class="internal">Notes</div>
+        <ol>
+            <div class="internal">note 1</div>
+        </ol>
+        <div class="internal">Status : NOT-STARTED</div>
+        <div class="internal">Reviewed : NOT-REVIEWED</div>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="622" MadCap:lastWidth="662">
+    <body>
+        <p>The essence of visual testing  is that the system compares images captured during the test to baseline images stored in the server. When the test is run for the first time, the baseline has not yet been created, so the work flow after the first run of a test is different from the work flow on subsequent runs.</p>
+        <p>The first time a test is run, <MadCap:variable name="General.ProductName" /> detects that this is a new baseline and by default, automatically stores the images that were captured during the test as the series of baseline images.  The tester can use <MadCap:variable name="General.ProductUI" /> to view the baseline images  to check that they meet expectations but he is not required to by <MadCap:variable name="General.ProductName" />.</p>
+        <p>On subsequent runs the newly captured images are compared to the baseline images and any differences are noted. A difference may be because of:</p>
+        <ul>
+            <li> a bug in the application</li>
+            <li>a problem with the test - e.g. the application may be displaying time that is different in each run</li>
+            <li> Because of a new or changed features in which case the existing baseline is no longer relevant. </li>
+        </ul>
+        <p>To resolve these, the tester uses various tools provided by  <MadCap:variable name="General.ProductUI" /> tool to view the differences, to view and compare the various images in different ways and then he can:</p>
+        <ul>
+            <li>Annotate the step by marking bug regions, writing comments and reporting issues to other team members</li>
+            <li>Accept the latest image as the new baseline images</li>
+            <li>Make adjustments to the way the test is matched for example by defining areas with dynamic data that should be ignored, or by changing the matching algorithm to match the data by Layout instead of by Content</li>
+        </ul>
+    </body>
+</html>

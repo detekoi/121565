@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1100" MadCap:lastWidth="610">
+    <head>
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Test Baselines</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../definition-baseline.flsnp" />
+                <p>
+                    <MadCap:snippetText src="../../_quickInserts/for-more-info.flsnp" /> <MadCap:xref href="../definition-baseline-page.htm">Baselines</MadCap:xref>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Batching</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../definition-batch.flsnp" />
+                <p>
+                    <MadCap:snippetText src="../../_quickInserts/for-more-info.flsnp" />
+                    <MadCap:xref href="../../I_Definitions/definition-batch-page.htm">Batch</MadCap:xref>
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="tbd"><b>Test Batching</b> :&#160;TBD&#160;</p>
+        <p class="tbd"><b>Collaboration</b> :&#160;TBD&#160;</p>
+        <p class="tbd"><b>Administration</b> TBD&#160;</p>
+    </body>
+</html>

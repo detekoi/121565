@@ -1,0 +1,30 @@
+/*<meta />*/
+
+p.MyStyle
+{
+	font-family: Arial;
+	font-size: 12pt;
+	margin: 0px;
+}
+
+img
+{
+	border: none;
+}
+
+a.Popup
+{
+	
+}
+
+div
+{
+	display: none;
+}
+
+div.internalOnly	/*Used for content which is intended for internal review only*/
+{
+	border: solid 2px #fffbbb;
+	border-bottom-color: #000000;
+}
+

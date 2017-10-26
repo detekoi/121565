@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1185" MadCap:lastWidth="456">
+    <body>
+        <p>A visual testing system is composed of the following major components</p>
+        <ul>
+            <li>The Application Under Test</li>
+            <li>A&#160;test suite that exercises the AUT</li>
+            <li>The <MadCap:variable name="General.ProductName" /> SDK&#160;and server that provide a way to capture AUT screenshots, compare them to baseline images and to report and manage the differences</li>
+            <li>Some infrastructure that provides a way for the AUT&#160;to send events to the AUT&#160;and that provides the images to Eyes.</li>
+        </ul>
+        <p>The description below explains how all of these interact to run a test, and to allow the tester to view and manage the test results.</p>
+        <div class="NewRowClass2">
+            <div>
+                <p>1) The test suite is run and executes a series of <i>check points</i>. Each of these have two basic steps:</p>
+                <div style="margin-left: 2em;">
+                    <div>
+                        <p>2.1) Simulate a user action such as a mouse click or a keyboard entry. Typically this is done using some sort of driver such as Selenium or Appium.</p>
+                        <p>2.2) Call an <MadCap:variable name="General.ProductClientAPI" /> API to initiate grabbing and storing of an image of the current window.</p>
+                    </div>
+                    <div style="text-align: left;margin-left: 2em;">
+                        <p>2.2a) <MadCap:variable name="General.ProductClientAPI" /> uses the driver to obtain the image </p>
+                        <p>2.2b)  it then sends the image to the <MadCap:variable name="Definitions.Eyes Server" /> for processing. </p>
+                    </div>
+                </div>
+                <p>3) After all the images have been processed, the <MadCap:variable name="Definitions.Eyes Server" /> returns a reply that indicates whether any differences were found and provides a link to the <MadCap:variable name="General.ProductName" /> site where the results can be viewed.</p>
+                <p>4) The tester uses the <MadCap:variable name="General.ProductUI" /> to view the test results, mark bugs, and update the baseline as necessary. When he is done he saves the baseline and it will then be the basis for comparison in the next test run.</p>
+            </div>
+            <div>
+                <img src="../../Resources/Figures/F0001-ecosystem.png" style="min-width: 500px;max-width: 48%;" />
+            </div>
+        </div>
+        <p>Some key feature of this architecture are:</p>
+        <ol>
+            <li><MadCap:variable name="General.ProductName" />supports a wide variety of application driver infrastructures, in many  programing languages, platforms, browsers, and operating systems.</li>
+            <li><MadCap:variable name="General.ProductName" /> does not interacts directly with the AUT so the AUT&#160;can be implemented in any way is required by the organization (i.e. .it can sit behind a firewall).</li>
+            <li><MadCap:variable name="General.ProductName" /> supports various server configurations to meet the organizations needs, ranging a low cost shared server to a dedicated cloud or on-premises servers. All of this is independent of the test suite code.</li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/From_template/D_Images/Images.htm" />
+    <Link
+      Url="http://www.madcapsoftware.com/" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/From_template/D_Images/Images.htm" />
+    <Link
+      Url="http://www.madcapsoftware.com/" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Links"
+      Conditions=""
+      LocalConditions=""
+      Position="6" />
+    <IndexCacheEntry
+      Term="Cross-references"
+      Conditions=""
+      LocalConditions=""
+      Position="9" />
+    <IndexCacheEntry
+      Term="Text hyperlinks"
+      Conditions=""
+      LocalConditions=""
+      Position="14" />
+    <IndexCacheEntry
+      Term="Hyperlinks"
+      Conditions=""
+      LocalConditions=""
+      Position="14" />
+    <IndexCacheEntry
+      Term="Popups"
+      Conditions="General.Online"
+      LocalConditions=""
+      Position="19" />
+    <IndexCacheEntry
+      Term="Footnotes"
+      Conditions=""
+      LocalConditions=""
+      Position="25" />
+  </Keywords>
+  <Concepts>
+    <ConceptCacheEntry
+      Term="LinksLists"
+      Conditions=""
+      LocalConditions=""
+      Position="5" />
+  </Concepts>
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="General.Online" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

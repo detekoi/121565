@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="TBD"
+    conditions="General.ToDo">
+    <TocEntry
+      Title="Integration with CI/CD systems">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Jenkins" />
+      <TocEntry
+        Title="Jira" />
+    </TocEntry>
+    <TocEntry
+      Title="Server">
+      <TocEntry
+        Title="The Eyes Server API"
+        Link="/Content/The Eyes Server API.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Internal debug">
+      <TocEntry
+        Title="Storing images results locally"></TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Platform Configuration">
+      <TocEntry
+        Title="Screenshot Configuration" />
+      <TocEntry
+        Title="Timing and Performance Considerations" />
+      <TocEntry
+        Title="Client Debug Environment" />
+      <TocEntry
+        Title="Server Access Configuration" />
+    </TocEntry>
+    <TocEntry
+      Title="New Entry" />
+    <TocEntry
+      Title="Managing tests and Results">
+      <TocEntry
+        Title="Version Control">
+        <TocEntry
+          Title="Baselines" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]" />
+      </TocEntry>
+      <TocEntry
+        Title="User Defined Properties" />
+      <TocEntry
+        Title="Batches" />
+    </TocEntry>
+    <TocEntry
+      Title="Basic Test Scenario">
+      <TocEntry
+        Title="Start and Teardown"
+        conditions="General.ToDo" />
+      <TocEntry
+        Title="Ways to Initiate Matches"
+        conditions="General.ToDo" />
+      <TocEntry
+        Title="obtaining match results"
+        conditions="General.ToDo" />
+      <TocEntry
+        Title="viewing match results"
+        conditions="General.ToDo" />
+      <TocEntry
+        Title="basic test configuration"
+        conditions="General.ToDo" />
+      <TocEntry
+        Title="Controlling the test sequence"
+        conditions="General.ToDo" />
+    </TocEntry>
+    <TocEntry
+      Title="Obtaining Best Results">
+      <TocEntry
+        Title="Why is Matching Hard?" />
+      <TocEntry
+        Title="Match Levels" />
+      <TocEntry
+        Title="Matching Units Types" />
+      <TocEntry
+        Title="Match Filtering" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Concepts">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Articles/definition-baseline-page.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/I_Definitions/definition-batch-page.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/I_Definitions/definition-page-viewport.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="Eyes SDK">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/A3_API/E_Eyes SDK/API Specification/eyes-open.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="Eyes WebApp"
+    conditions="General.ToDo">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/video Topics/testman bugs remarks chats.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Test Manager">
+      <TocEntry
+        Title="Test List">
+        <TocEntry
+          Title="Batch Steps View" />
+        <TocEntry
+          Title="Batch steps by test" />
+        <TocEntry
+          Title="Batch Summary View" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Step Viewer" />
+    <TocEntry
+      Title="Test Editor" />
+    <TocEntry
+      Title="Test run history view" />
+    <TocEntry
+      Title="Apps and test panel" />
+    <TocEntry
+      Title="Admin Panel">
+      <TocEntry
+        Title="Admin View" />
+      <TocEntry
+        Title="Usage Report" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Z_Internal/ekb_implementation_always_include.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    conditions="General.Internal"
+    StartSection="false" />
+</CatapultToc>

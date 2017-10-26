@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term0">
+    <Terms>
+      <Term>My Term</Term>
+    </Terms>
+    <Definition>My definition</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term1"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Window</Term>
+    </Terms>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term2"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>checkpoint</Term>
+    </Terms>
+    <Definition
+      Link="">A state of the application UI at which the screen image is grabbed and compared to a baseline image that corresponds to the check point</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term3">
+    <Terms>
+      <Term>mark a rectangular area</Term>
+    </Terms>
+    <Definition>click down, drag the mouse to select a regular area and then release the mouse.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term4">
+    <Terms>
+      <Term>baseline</Term>
+    </Terms>
+    <Definition>The baseline of a test refers to the sequence of images to which runs of the test will be compared.</Definition>
+  </GlossaryEntry>
+</CatapultGlossary>
